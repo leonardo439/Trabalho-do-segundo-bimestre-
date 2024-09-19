@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.nav-globo{
+    height: 35px;
+    margin-left: -70rem;
+}
+.name-logo{
+    width: 90px;
+    margin-left: 1rem;
+    margin-bottom: 10px;
+}
+.text-logo{
+    margin-left: -65rem;
+    font-size: 10px;
+    margin-top: -10px;
+}
+.header {
+    margin-bottom: 30px;
+}
+
+.h1 {
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #333;
+    border-bottom: 4px solid black;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.globe {
+grid-area: globe;
+height: 300px;
+}
+
+.topics {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.topics h2 {
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 4px solid black;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.topics ul {
+    list-style: none;
+}
+
+.topics ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.a{
+    text-decoration: none;
+}
+.footer {
+    margin-top: 30px;
+}
+
+.footer a {
+    padding: 10px 20px;
+}
+
